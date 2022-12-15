@@ -6,6 +6,8 @@
 <link href={{asset('/adminlte/vendors/nprogress/nprogress.css')}} rel="stylesheet">
 <!-- iCheck -->
 <link href={{asset('/adminlte/vendors/iCheck/skins/flat/green.css')}} rel="stylesheet">
+<!-- Animate.css -->
+<link href={{asset('/adminlte/vendors/animate.css/animate.min.css')}} rel="stylesheet">
 
 <!-- bootstrap-progressbar -->
 <link

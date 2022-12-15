@@ -1,92 +1,115 @@
 @extends('layouts.master')
 
 @section('content')
+    <!-- page content -->
     <div class="right_col" role="main">
+        <div class="">
+            <div class="page-title">
+                <div class="title_left">
+                    <h3>Dashboard</h3>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
 
-        <br/>
+        <div class="col-md-6 col-sm-6  ">
+            <div class="x_panel">
+                <div class="x_title">
+                    <h2>Daily active<small>Sessions</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false"><i class="fa fa-wrench"></i></a>
 
-        <div class="row">
-            <div>
-                <a class="hiddenanchor" id="signup"></a>
-                <a class="hiddenanchor" id="signin"></a>
+                        </li>
+                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
 
-                <div class="login_wrapper">
-                    <div class="animate form login_form">
-                        <section class="login_content">
-                            <form>
-                                <h1>Login Form</h1>
-                                <div>
-                                    <input type="text" class="form-control" placeholder="Username" required=""/>
-                                </div>
-                                <div>
-                                    <input type="password" class="form-control" placeholder="Password" required=""/>
-                                </div>
-                                <div>
-                                    <a class="btn btn-default submit" href="index.html">Log in</a>
-                                    <a class="reset_pass" href="#">Lost your password?</a>
-                                </div>
-
-                                <div class="clearfix"></div>
-
-                                <div class="separator">
-                                    <p class="change_link">New to site?
-                                        <a href="#signup" class="to_register"> Create Account </a>
-                                    </p>
-
-                                    <div class="clearfix"></div>
-                                    <br/>
-
-                                    <div>
-                                        <h1><i class="fa fa-paw"></i> ACS | DQA</h1>
-                                        <p>©2022 All CopyRights</p>
-                                    </div>
-                                </div>
-                            </form>
-                        </section>
+                    <div class="bs-example" data-example-id="simple-jumbotron">
+                        <div class="jumbotron">
+                            <h1>Hello, world!</h1>
+                            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra
+                                attention to featured content or information.</p>
+                        </div>
                     </div>
 
-                    <div id="register" class="animate form registration_form">
-                        <section class="login_content">
-                            <form>
-                                <h1>Create Account</h1>
-                                <div>
-                                    <input type="text" class="form-control" placeholder="Username" required=""/>
-                                </div>
-                                <div>
-                                    <input type="email" class="form-control" placeholder="Email" required=""/>
-                                </div>
-                                <div>
-                                    <input type="password" class="form-control" placeholder="Password" required=""/>
-                                </div>
-                                <div>
-                                    <a class="btn btn-default submit" href="index.html">Submit</a>
-                                </div>
+                </div>
+            </div>
+        </div>
 
-                                <div class="clearfix"></div>
+        <!-- Start to do list -->
+        <div class="col-md-6 col-sm-6  ">
+            <div class="x_panel">
+                <div class="x_title">
+                    <h2>To Do List <small>Sample tasks</small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                        <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                               aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Settings 1</a>
+                                <a class="dropdown-item" href="#">Settings 2</a>
+                            </div>
+                        </li>
+                        <li><a class="close-link"><i class="fa fa-close"></i></a>
+                        </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="x_content">
 
-                                <div class="separator">
-                                    <p class="change_link">Already a member ?
-                                        <a href="#signin" class="to_register"> Log in </a>
-                                    </p>
-
-                                    <div class="clearfix"></div>
-                                    <br/>
-
-                                    <div>
-                                        <h1><i class="fa fa-paw"></i> Gentelella Alela!</h1>
-                                        <p>©2016 All Rights Reserved. Gentelella Alela! is a Bootstrap 4 template.
-                                            Privacy and Terms</p>
-                                    </div>
-                                </div>
-                            </form>
-                        </section>
+                    <div class="">
+                        <ul class="to_do">
+                            <li>
+                                <p>
+                                    <input type="checkbox" class="flat"> Schedule meeting with new client </p>
+                            </li>
+                            <li>
+                                <p>
+                                    <input type="checkbox" class="flat"> Create email address for new intern</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <input type="checkbox" class="flat"> Have IT fix the network printer</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <input type="checkbox" class="flat"> Copy backups to offsite location</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <input type="checkbox" class="flat"> Food truck fixie locavors mcsweeney</p>
+                            </li>
+                            <li>
+                                <p>
+                                    <input type="checkbox" class="flat"> Food truck fixie locavors mcsweeney</p>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-
         </div>
+        <!-- End to do list -->
+
 
     </div>
+    <div class="clearfix"></div>
+    </div>
+    <!-- /page content -->
+
+
+
+
+
+
+    </body>
 
 @endsection
