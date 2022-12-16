@@ -27,6 +27,11 @@ Route::get('/test', function () {
 
 });
 
-Route::get('/admin', function () {
-    return view('admin.test');
+#Route::get('/admin', function () {
+#    return view('admin.test');
+#});
+
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });
