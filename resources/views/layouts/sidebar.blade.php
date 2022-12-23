@@ -3,8 +3,13 @@
         <ul class="nav side-menu">
             <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
                 <ul class="nav child_menu">
-                    <li><a href={{asset('/admin')}}> Dashboard</a></li>
-                    <li><a href={{asset('/test')}} > Test</a></li>
+                    <li><a href={{asset('/')}}> welcome</a></li>
+                    <li><a href={{asset('/home')}}> Dashboard</a></li>
+                    <li><a href={{asset('/login')}}> login</a></li>
+                    <li><a href={{asset('/projects')}} > Project</a></li>
+                    <li><a href={{asset('/admintest')}} > Samples</a></li>
+                    <li><a href='http://redmine.funtoro.com' > Redmine system</a></li>
+
                 </ul>
             </li>
 

@@ -33,9 +33,8 @@
 
                     <div class="bs-example" data-example-id="simple-jumbotron">
                         <div class="jumbotron">
-                            <h1>Hello, world!</h1>
-                            <p>This is a simple hero unit, a simple jumbotron-style component for calling extra
-                                attention to featured content or information.</p>
+                            <h1>Hello, everyone!</h1>
+                            <p>系統建置中.....</p>
                         </div>
                     </div>
 
