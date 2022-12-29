@@ -97,18 +97,10 @@
             </div>
         </div>
         <!-- End to do list -->
-
-
     </div>
     <div class="clearfix"></div>
     </div>
     <!-- /page content -->
-
-
-
-
-
-
     </body>
 
 @endsection
